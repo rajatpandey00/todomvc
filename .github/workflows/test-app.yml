@@ -52,9 +52,9 @@ jobs:
       - name: Save build folder
         uses: actions/upload-artifact@v3
         with:
-          name: build
+          name: dist
           if-no-files-found: error
-          path: build
+          path: dist
 
   install-windows:
     runs-on: windows-2019
@@ -77,9 +77,9 @@ jobs:
       - name: Save build folder
         uses: actions/upload-artifact@v3
         with:
-          name: build
+          name: dist
           if-no-files-found: error
-          path: build
+          path: dist
 
   ui-chrome-tests:
     timeout-minutes: 15
@@ -104,8 +104,8 @@ jobs:
       - name: Download the build folders
         uses: actions/download-artifact@v3
         with:
-          name: build
-          path: build
+          name: dist
+          path: dist
 
       - name: Cypress info
         run: npx cypress info
@@ -159,8 +159,8 @@ jobs:
       - name: Download the build folders
         uses: actions/download-artifact@v3
         with:
-          name: build
-          path: build
+          name: dist
+          path: dist
 
       - name: "UI Tests - Chrome - Mobile"
         uses: cypress-io/github-action@v4
@@ -205,8 +205,8 @@ jobs:
       - name: Download the build folders
         uses: actions/download-artifact@v3
         with:
-          name: build
-          path: build
+          name: dist
+          path: dist
 
       - name: "UI Tests - Firefox"
         uses: cypress-io/github-action@v4
@@ -250,8 +250,8 @@ jobs:
       - name: Download the build folders
         uses: actions/download-artifact@v3
         with:
-          name: build
-          path: build
+          name: dist
+          path: dist
 
       - name: "UI Tests - Firefox - Mobile"
         uses: cypress-io/github-action@v4
@@ -293,8 +293,8 @@ jobs:
       - name: Download the build folders
         uses: actions/download-artifact@v3
         with:
-          name: build
-          path: build
+          name: dist
+          path: dist
 
       - name: "UI Tests - Electron - Windows"
         uses: cypress-io/github-action@v4
