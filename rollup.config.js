@@ -1,4 +1,5 @@
 import { babel } from '@rollup/plugin-babel';
+import copy from 'rollup-plugin-copy'
 
 const config = {
   input: 'src/app.js',
@@ -6,7 +7,13 @@ const config = {
 	file: 'dist/bundle.js',
     format: 'iife'
   },
-  plugins: [babel({ babelHelpers: 'bundled' })]
+  plugins: [
+    babel({ babelHelpers: 'bundled' }),
+    copy({
+      targets: [
+        { src: 'cypress/*', dest: 'dist/cypress' }
+      ]
+    })]
 };
 
 export default config;
