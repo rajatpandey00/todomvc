@@ -28,3 +28,4 @@ const todo = new Todo('todos-vanillajs');
 
 $on(window, 'load', setView);
 $on(window, 'hashchange', setView);
+
