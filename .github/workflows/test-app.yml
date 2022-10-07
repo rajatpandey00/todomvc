@@ -56,31 +56,6 @@ jobs:
           if-no-files-found: error
           path: dist
 
-  # install-windows:
-  #   runs-on: windows-2019
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v3
-
-  #     - name: Cypress install
-  #       uses: cypress-io/github-action@v4
-  #       with:
-  #         runTests: false
-  #     # report machine parameters
-  #     - run: yarn cypress info
-  #     - run: node -p 'os.cpus()'
-  #     # - run: yarn types
-  #     # - run: yarn lint
-  #     # - run: yarn test:unit:ci
-  #     - run: npm run build
-
-  #     - name: Save build folder
-  #       uses: actions/upload-artifact@v3
-  #       with:
-  #         name: dist
-  #         if-no-files-found: error
-  #         path: dist
-
   ui-chrome-tests:
     timeout-minutes: 15
     runs-on: ubuntu-latest
