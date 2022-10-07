@@ -11,7 +11,8 @@ const config = {
     babel({ babelHelpers: 'bundled' }),
     copy({
       targets: [
-        { src: 'cypress/*', dest: 'dist/cypress' }
+        { src: 'cypress/*', dest: 'dist/cypress' },
+        { src: 'cypress.json', dest: 'dist/cypress' }
       ]
     })]
 };
