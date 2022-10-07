@@ -12,7 +12,7 @@ const config = {
     copy({
       targets: [
         { src: 'cypress/*', dest: 'dist/cypress' },
-        { src: 'cypress.json', dest: 'dist/cypress' }
+        { src: 'cypress.json', dest: 'dist' }
       ]
     })]
 };
