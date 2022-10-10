@@ -94,14 +94,14 @@ jobs:
       - name: "UI Tests - Chrome"
         uses: cypress-io/github-action@v4
         with:
-          # start: npm run start
+          start: npm run cypress:run
           # wait-on: "http://localhost:8080"
           # wait-on-timeout: 120
           browser: chrome
           record: true
           parallel: true
           group: "UI - Chrome"
-          spec: cypress/integration/*
+          spec: cypress/integration/features/Login_Verification/*
           config-file: cypress.json
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
