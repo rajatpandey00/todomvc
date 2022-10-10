@@ -1,5 +1,5 @@
 import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps'
-import { logout } from '../../../../kit/doLogout'
+import { doLogout } from '../../../../kit'
 import * as values from '../../../../fixtures/testDataOne.json'
 
 Cypress.on('uncaught:exception', (err, runnable) => {
@@ -52,5 +52,5 @@ Then('User is able to login successfully to the landing page', () => {
 })
 
 And('The user is able to logout successfully', () => {
-  logout()
+  doLogout.logout()
 })
