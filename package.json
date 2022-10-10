@@ -9,7 +9,7 @@
     "start": "http-server",
     "test": "cypress run",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --parallel --record --key",
+    "cypress:run": "cypress run",
     "cypress:record": "cypress run --record --key"
   },
   "browserify": {
