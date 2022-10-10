@@ -12,6 +12,7 @@
     },
     "testFiles": [
         "**/features/**/*.feature",
-        "**/*.js"
+        "**/*.js",
+        "**/*.ts"
     ]
 }
