@@ -1,0 +1,23 @@
+{
+  "url": "https://user.uat.lygon.io/login/L1F3",
+  "userName": "810000002_U1@lygonqatest.com",
+  "password": "5dsC@m6aEa5%35ie75aB2",
+  "parentOrgUrlOne": "https://user.uat.lygon.io/login/sI9A",
+  "parentOrgOne": "UA AUAppl 5",
+  "parentUserNameOne": "810000005_U1@lygonqatest.com",
+  "parentPasswordOne": "5dsC@m6aEa5%35ie75aB1",
+  "parentUserName4Eye": "810000005_U1@lygonqatest.com",
+  "parentPassword4Eye": "5dsC@m6aEa5%35ie75aB1",
+  "childOrgOne": "UA AUBene 10",
+  "childUserName4Eye": "910000010_U1@lygonqatest.com",
+  "childPassword4Eye": "5dsC@m6aEa5%35ie75aB1",
+  "childOrgUrl4Eye": "https://user.uat.lygon.io/login/WQRg",
+  "childUserNameOne": "910000010_U1@lygonqatest.com",
+  "childPasswordOne": "5dsC@m6aEa5%35ie75aB1",
+  "applicantProposer4EyeUrl": "https://user.uat.lygon.io/login/sI9A",
+  "applicantProposer4EyeUserName": "810000005_P@lygonqatest.com",
+  "applicantProposer4EyePassword": "5dsC@m6aEa5%35ie75aB1",
+  "applicantApprover4EyeUrl": "https://user.uat.lygon.io/login/sI9A",
+  "applicantApprover4EyeUserName": "810000005_U1@lygonqatest.com",
+  "applicantApprover4EyePassword": "5dsC@m6aEa5%35ie75aB1"
+}

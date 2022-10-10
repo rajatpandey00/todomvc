@@ -1,0 +1,13 @@
+{
+    "name": "Swetha Mohan",
+    "status": "Active",
+    "roles": "ADMIN, MANAGER",
+    "nonAdminName": "Test User One",
+    "nonAdminRole": "MANAGER",
+    "newUsr": "Test User",
+    "firstNameNewUsr": "Test",
+    "lastNameNewUsr": "User",
+    "emailNewUsr": "testuser@lygonqatest.com",
+    "phnNewUsr": "+61111111111",
+    "threshold": "100000000"
+}

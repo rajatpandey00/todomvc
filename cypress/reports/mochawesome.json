@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-10T00:09:11.172Z",
+    "end": "2022-10-10T00:09:25.608Z",
+    "duration": 14436,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5b0dad5a-6237-4a5a-b7dc-fe02e895f332",
+      "title": "",
+      "fullFile": "cypress/integration/features/Login_Verification/Validate_Login_Page.feature",
+      "file": "cypress/integration/features/Login_Verification/Validate_Login_Page.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "912d47b3-33f1-4889-bb29-c558dffca62a",
+          "title": "As a user, I should be able to access the application using valid credentials only",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Error message thrown when user uses invalid credentials",
+              "fullTitle": "As a user, I should be able to access the application using valid credentials only Error message thrown when user uses invalid credentials",
+              "timedOut": null,
+              "duration": 4955,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "3f550edf-77aa-49fb-8166-229035ccc763",
+              "parentUUID": "912d47b3-33f1-4889-bb29-c558dffca62a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User is able login successfully using valid password",
+              "fullTitle": "As a user, I should be able to access the application using valid credentials only User is able login successfully using valid password",
+              "timedOut": null,
+              "duration": 7484,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "411dcf78-ac3a-4791-866f-ffde5c5ef168",
+              "parentUUID": "912d47b3-33f1-4889-bb29-c558dffca62a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3f550edf-77aa-49fb-8166-229035ccc763",
+            "411dcf78-ac3a-4791-866f-ffde5c5ef168"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12439,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "html": false,
+        "json": true,
+        "overwrite": false,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "authOrgMsg": "You can now submit guarantee requests to ",
+    "unAuthOrgMsg": "You can now submit guarantee requests to ",
+    "errMsg_NonManagerRoleUsrActsOnGx": "You don't have the right approval role to start requests related to this guarantee.",
+    "errMsg_IRNLessThan3Char" : "The Issuer Reference Number should not be less than 3 characters.",
+    "errMsg_PendingWithAppr" : "This request needs to be processed by another person in your organisation."
+}
