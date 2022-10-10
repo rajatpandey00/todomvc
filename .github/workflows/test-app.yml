@@ -101,7 +101,7 @@ jobs:
           record: true
           parallel: true
           group: "UI - Chrome"
-          spec: cypress/integration/features/Others/All_Guarantees_Search/playground_specs.ts
+          spec: cypress/integration/features/**/*.feature
           config-file: cypress.json
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
