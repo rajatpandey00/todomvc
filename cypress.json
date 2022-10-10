@@ -1,4 +1,17 @@
 {
-  "baseUrl": "http://localhost:8080",
-  "projectId": "tamksd"
+    "chromeWebSecurity": false,
+    "projectId": "2ia6s6",
+    "defaultCommandTimeout": 20000,
+    "experimentalStudio": true,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "html": false,
+        "json": true,
+        "overwrite": false,
+        "reportDir": "cypress/reports"
+    },
+    "testFiles": [
+        "**/features/**/*.feature",
+        "**/*.js"
+    ]
 }
