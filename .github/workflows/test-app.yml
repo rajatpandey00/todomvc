@@ -101,7 +101,7 @@ jobs:
           record: true
           parallel: true
           group: "UI - Chrome"
-          spec: cypress/integration/features/Login_Verification/*
+          spec: cypress/integration/features/*
           config-file: cypress.json
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
@@ -154,7 +154,7 @@ jobs:
           record: true
           parallel: true
           group: "UI - Chrome"
-          spec: cypress/integration/features/Others/All_Guarantees_Search/*
+          spec: cypress/integration/features/*
           config-file: cypress.json
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
