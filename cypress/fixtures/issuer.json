@@ -1,0 +1,16 @@
+{
+    "url": "https://test.uat.lygon.io/",
+    "userName": "100000001_U3Auto@lygonqatest.com",
+    "password": "5dsC@m6aEa5%35ie75aB2",
+    "issuerNonAdminUsername": "100000001_U2@lygonqatest.com",
+    "issuerNonAdminPassword": "5dsC@m6aEa5%35ie75aB2",
+    "url4Eye": "https://test2.uat.lygon.io/",
+    "userNameProposer4Eye": "200000001_U3Autoprop@lygonqatest.com",
+    "passwordProposer4Eye": "5dsC@m6aEa5%35ie75aB21",
+    "userNameApprover4Eye": "200000001_U4Autoappr@lygonqatest.com",
+    "passwordApprover4Eye": "5dsC@m6aEa5%35ie75aB2",
+    "issuerNameAus1": "Australian Bank 1",
+    "issuerNameNZ1": "New Zealand Bank 1",
+    "issuerAdminUsername": "100000001_U1@lygonqatest.com",
+    "issuerAdminPassword":"5dsC@m6aEa5%35ie75aB21"
+}

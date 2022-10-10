@@ -1,0 +1,10 @@
+{
+    "AUIssuerUrl": "https://test.uat.lygon.io/api/",
+    "AUIssuerAPIKey": "Bearer APIKEY-536ebcda-eb00-4be3-886d-81a525c2de3b",
+    "AUIssuerId": "f7cb1854-c0c8-11ea-b3de-0242ac130004",
+    "NZIssuerURL": "https://test2.uat.lygon.io/api/",
+    "NZIssuerAPIKey": "Bearer APIKEY-6f0dd90d-c32d-4423-a033-ba4e8b4af497",
+    "NZIssuerId": "85e8a743-228d-4416-912f-4b150c6363f8",
+    "AdminUrl": "https://admin.uat.lygon.io/api/",
+    "AdminAPIKey": "Bearer APIKEY-b1884769-beb5-4737-93d3-de4ad4db16e7"
+}
